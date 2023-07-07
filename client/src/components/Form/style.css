@@ -1,0 +1,47 @@
+:root {
+    margin: 8px;
+  }
+  
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    margin: 8px;
+}
+  .paper {
+    padding: 16px;
+  }
+
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .fileInput {
+    width: 97%;
+    margin: 10px 0;
+  }
+  
+  .paper .buttonSubmit {
+    margin-bottom: 10px;
+  }
+  
+  .paper .form-field {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    :root {
+      margin: 4px;
+    }
+    
+    .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+      margin: 4px;
+    }
+    
+    .paper {
+      padding: 8px;
+    }
+    
+    .paper .form-field {
+      margin-bottom: 4px;
+    }
+  }

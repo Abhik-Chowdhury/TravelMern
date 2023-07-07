@@ -1,0 +1,36 @@
+.appBar{
+    border-radius: 15;
+    margin: 30px 0;
+    display:flex;
+    padding-top: 10px;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+  }
+  .heading{
+    color: rgba(0, 183, 255, 1);
+  }
+  .image{
+    margin-top: -80px;
+    margin-left: 480px;
+  }
+
+ @media screen and (max-width: 480px) {
+
+  .appBar{
+    padding-top: 0px;
+    padding-right: 65px;
+  }
+  .heading{
+    font-size: 35px;
+    margin-top: 10px;
+  }
+   .image{
+    margin-top: -75px;
+    margin-left: 280px;
+    max-width: 5rem;
+    max-height: 5rem;
+   }
+ }
+
+ 

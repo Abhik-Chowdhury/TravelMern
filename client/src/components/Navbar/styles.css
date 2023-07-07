@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'mickey';
+  src: url('./beauty-cursive.otf') format('opentype');
+}
+.appBar {
+  border-radius: 15px;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+}
+
+.heading {
+  /* color: rgba(0, 183, 255, 1); */
+  text-decoration: none;
+  margin-left: -780px;
+  font-family: 'mickey';
+  font-size: 50px;
+  background: -webkit-linear-gradient(#43cea2,#00b7ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.image {
+  margin-left: -250px;
+  margin-top: 5px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -80px;
+  margin-left: 560px;
+  margin-right: -25rem;
+}
+
+.toolbarS {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -80px;
+  margin-left: 560px;
+  margin-right: -45rem;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  align-items: center;
+}
+
+.logout {
+  width: 50px;
+}
+
+.userName {
+  display: flex;
+  align-items: center;
+}
+
+.brandContainer {
+  display: flex;
+  align-items: center;
+}
+
+.purple {
+  color: color-contrast(#673AB7 vs #673AB7, #a67fe8);
+  background-color: #673AB7;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 786px) {
+  .appBar {
+    flex-direction: row;
+    padding: 10px;
+  }
+  .image{
+    margin-left: -40px;
+  }
+  .heading {
+    margin-left: auto;
+    margin-right: 38px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .toolbar {
+    margin-top: -19px;
+    margin-left: -25rem;
+  }
+
+  .toolbarS{
+    margin-top: 0;
+    margin-left: -45rem;
+  }
+
+  .profile {
+    width: 100%;
+    justify-content:center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+
+  .logout {
+    margin-right: 0;
+    margin-top: 10px;
+  }
+
+  .userName{
+    font-size: 17.5px;
+  }
+
+}
